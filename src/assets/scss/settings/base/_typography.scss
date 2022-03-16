@@ -1,14 +1,14 @@
 // Typography
 
 $font--provider:    'Google Fonts';
-$font--import:      'Inter:400,500,600,700,800';
+$font--import:      'Montserrat';
 
 // The font set
 $font--family: (
-	heading: 	'"Inter", sans-serif',
-	base:		'"Inter", sans-serif',
-	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
-	pre: 		'"Courier 10 Pitch", Courier, monospace'
+	heading: 	'"Montserrat", sans-serif',
+	base:		'"Montserrat", sans-serif',
+	code: 		'Montserrat, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
+	pre: 		'"Montserrat", Courier, monospace'
 );
 
 // The typographic scale
