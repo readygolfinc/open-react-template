@@ -69,9 +69,6 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  {/* <Button tag="a" color="primary" wideMobile href="https://readygolfweb.onrender.com/">
-                    Get started
-                    </Button> */}
                 <a href="https://readygolfweb.onrender.com/">
                   <Image
                     className="has-shadow"
@@ -79,7 +76,10 @@ const Hero = ({
                     alt="Available on the Internet Link"
                     width={150} />
                 </a>
-                <a className='ml-24' href="https://apple.com">
+                </ButtonGroup>
+                <h6>OR</h6>
+                <ButtonGroup>
+                <a href="https://apple.com">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/appleAppStoreButton.png')}
