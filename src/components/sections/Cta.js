@@ -52,8 +52,8 @@ const Cta = ({
           className={innerClasses}
         >
           <div className="cta-slogan">
-            <h3 className="m-0">
-              Want to join the beta program?
+            <h3 className="m-0" style={{"color": "white"}}>
+              Want us to reach out when the app is released?
               </h3>
           </div>
           <div className="cta-action">
