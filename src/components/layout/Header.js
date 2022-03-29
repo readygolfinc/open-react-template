@@ -113,7 +113,7 @@ const Header = ({
                         navPosition && `header-nav-${navPosition}`
                       )}>
                       <li>
-                        <Link to="#0" onClick={closeMenu, window.open('https://readygolfweb.onrender.com/teetimesearch', '_blank')}>Tee Time Search</Link>
+                        <Link to="#0" onClick={closeMenu, window.open('https://readygolfweb.onrender.com/#/teetimes', '_blank')}>Tee Time Search</Link>
                       </li>
                     </ul>
                   {!hideSignin &&
@@ -122,7 +122,7 @@ const Header = ({
                     >
                       <li>
                         {/* <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link> */}
-                        <Button tag="a" color="primary" wideMobile href="https://readygolfweb.onrender.com/">
+                        <Button tag="a" color="primary" wideMobile href="https://readygolfweb.onrender.com/#/profile">
                           Sign Up
                         </Button>
                       </li>

@@ -69,7 +69,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                <a href="https://readygolfweb.onrender.com/">
+                <a href="https://readygolfweb.onrender.com/#/profile">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/availableOnInternet.png')}
