@@ -79,20 +79,20 @@ const Hero = ({
                 </ButtonGroup>
                 <h6>OR</h6>
                 <ButtonGroup>
-                <a href="https://apple.com">
+                <a href="https://testflight.apple.com/join/dNus21rK">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/appleAppStoreButton.png')}
                     alt="Apple App Store Link"
                     width={150} />
                 </a>
-                <a className='ml-24' href="https://google.com">
+                {/* <a className='ml-24' href="https://google.com">
                   <Image
                     className="has-shadow"
                     src={require('./../../assets/images/googlePlayStoreButton.png')}
                     alt="Get it on the Play Store Link"
                     width={150} />
-                </a>
+                </a> */}
                 </ButtonGroup>
               </div>
             </div>
